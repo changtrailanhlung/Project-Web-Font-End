@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.circle {
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff0000;
+    background-color: #FFFD00;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}

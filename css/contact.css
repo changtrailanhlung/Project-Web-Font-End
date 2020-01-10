@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contentcontact {
+    width: 100%;
+    min-height: 500px;
+}
+.contactleft {
+    width: 100%;
+    float: left;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("../fonts/ARABOLIC.TTF");
+}
+.contactleft h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #000000;
+	font-family: myFirstFont;
+}
+.contactleft table td {
+    padding: 5px;
+    font-size: 20px;
+    color: #000000;
+}
+.contactleft input {
+    width: 250px;
+    height: 30px;
+}
+.contactleft .btn {
+    width: 100px;
+}
+.contactright {
+    width: 47%;
+    min-height: 500px;
+    float: left;
+	margin-left: 150px;
+}
+.contactright iframe {
+    margin-top: 20px;
+}
+.contactcenter {
+    width: 30%;
+    float: left; margin-left: 150px;
+}
+.contactcenter span {
+    float: left;
+    font-size: 18px;
+    color: #333;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+.contactcenter i {
+    float: left;
+    font-size: 15px;
+    color: #333;
+}

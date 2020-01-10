@@ -1,0 +1,447 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>travel.com.vn</title>
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="css/public.css">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="css/buy.css">
+<link rel="stylesheet" type="text/css" href="css/tour.css">
+<link rel="stylesheet" type="text/css" href="css/tour2.css">
+<link rel="stylesheet" type="text/css" href="css/circle.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/mixslider.css" />
+<link rel="stylesheet" href="css/main.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<style>
+#top-up {
+    background: none;
+    font-size: 3em;
+    text-shadow: 0px 0px 5px #c0c0c0;
+    cursor: pointer;
+    position: fixed;
+    z-index: 9999;
+    color: #004993;
+    bottom: 20px;
+    right: 15px;
+    display: none;
+}
+</style>
+
+<body>
+<div id="boxes">
+  <div style="top: 199.5px; left: 551.5px; display: none; font-size: 32px;" id="dialog" class="window" >ADVERTISEMENT
+    <div id="lorem">
+      <center>
+        <img src="images/sale.jpg" width="250" height="250" />
+      </center>
+    </div>
+    <div id="popupfoot"> <a href="#" class="close agree">OK</a> | <a class="agree"style="color:red;" href="http://www.cartoonnetwork.com/">Cancel</a> </div>
+  </div>
+  <div style="width: 50%; font-size: 32px; color: white; height: 25%; display: none; opacity: 1;" id="mask"></div>
+</div>
+<script src="js/jquery.js"></script> 
+<script src="js/main.js"></script> 
+<!--Popup-->
+<div class="container_main">
+  <nav id="fixNav">
+    <ul>
+      <li><a href="Index.html">HOME</a></li>
+      <li><a href="Product1.html">TOUR IN COUNTRY</a></li>
+      <li><a href="Product2.html" style="background-color: #ff9d00">FOREIGN TOUR</a></li>
+      <li><a href="http://www.worldtrans.vn" target="_blank"/>AIR TICKET</a></li>
+      <li> <a href="#">OTHER</a>
+        <ul class="sub-menu">
+          <li><a href="About1.html">CONTACT</a></li>
+          <li><a href="About2.html">ABOUT</a></li>
+        </ul>
+      </li>
+      <a href="login.html" target="_blank"><img src="images/user.jpg" /></a>
+      <div class="search">
+        <form>
+          <input type="text" placeholder="Search" name="search" />
+          <div class="iconsearch" ><img src="images/icon_Search.png" /></div>
+        </form>
+      </div>
+    </ul>
+  </nav>
+  <div id="wowslider-container1">
+    <div class="ws_images">
+      <ul>
+        <li><img src="images/1.jpg" alt="1" title="1" id="wows1_0"/></li>
+        <li><img src="images/2.jpg" alt="2" title="2" id="wows1_1"/></li>
+        <li><img src="images/3.jpg" alt="3" title="3" id="wows1_2"/></li>
+        <li><img src="images/4.jpg" alt="4" title="4" id="wows1_3"/></li>
+        <li><img src="images/5.jpg" alt="5" title="5" id="wows1_4"/></li>
+        <li><img src="images/6.jpg" alt="6" title="6" id="wows1_5"/></li>
+        <li><a href="http://wowslider.net"><img src="images/7.jpg" alt="jquery carousel" title="7" id="wows1_6"/></a></li>
+        <li><img src="images/8.jpg" alt="8" title="8" id="wows1_7"/></li>
+      </ul>
+    </div>
+    <div class="ws_bullets">
+      <div> <a href="#" title="1"><span><img src="images/1.jpg" alt="1"/>1</span></a> <a href="#" title="2"><span><img src="images/2.jpg" alt="2"/>2</span></a> <a href="#" title="3"><span><img src="images/3.jpg" alt="3"/>3</span></a> <a href="#" title="4"><span><img src="images/4.jpg" alt="4"/>4</span></a> <a href="#" title="5"><span><img src="images/5.jpg" alt="5"/>5</span></a> <a href="#" title="6"><span><img src="images/6.jpg" alt="6"/>6</span></a> <a href="#" title="7"><span><img src="images/7.jpg" alt="7"/>7</span></a> <a href="#" title="8"><span><img src="images/8.jpg" alt="8"/>8</span></a> </div>
+    </div>
+    <div class="ws_script" style="position:absolute;left:-99%"></div>
+    <div class="ws_shadow"></div>
+  </div>
+  <script type="text/javascript" src="js/wowslider.js"></script> 
+  <script type="text/javascript" src="js/script.js"></script> 
+  <!-- End WOWSlider.com BODY section --> 
+  
+</div>
+<!--Kết thúc Menu-->
+
+<article class="contenthome">
+<center>
+  <h1>HOT TOUR</h1>
+</center>
+<div class="container">
+<div id="mixedSlider">
+  <div class="MS-content">
+    <div class="item">
+      <div class="tour">
+        <div class="cont2"> <img src="images/b1.jpg" width="250" height="250"/>
+          <div class="overlay2"><br>
+            Hotel 3 *</br>
+            <br>
+            Tour Save</br>
+          </div>
+        </div>
+        <div class="name2">Netherlands - ... - France</div>
+        <div class="inf">22/03/2019 23:55 | 10 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 3 slot</div>
+        <div class="inf">-------------------------------------------------</div>
+        <div class="price2"><b> 66,990,000 đ</b> </div>
+        <a href="BuyNow.html">
+        <button class="buy" style="margin-left: 50px;">Buy now</button>
+        </a> </div>
+    </div>
+    <div class="item">
+      <div class="tour">
+        <div class="cont2"> <img src="images/b2.jpg" width="250" height="250"/>
+          <div class="overlay2"> <br>
+            Hotel 4*</br>
+            <br>
+            Free ticket to Burj Khalifa tower</br>
+            <br>
+            Miracle flower garden ticket</br>
+            <br>
+            Standard Tour</br>
+          </div>
+          <div class="name2">Brunei - Dubai - Abu Dhabi</div>
+          <div class="inf">25/03/2019 14:15 | 7 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 5 slot</div>
+          <div class="inf">-------------------------------------------------</div>
+          <div class="price2"><b> 35,990,000 đ</b> </div>
+          <a href="BuyNow.html">
+          <button class="buy" style="margin-left: 50px;">Buy now</button>
+          </a> </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="tour">
+        <div class="cont2"> <img src="images/b3.jpg" width="250" height="250"/>
+          <div class="overlay2"> <br>
+            Hotel 5*</br>
+            <br>
+            Save Tour</br>
+          </div>
+          <div class="name2">Turkey</div>
+          <div class="inf">25/03/2019 14:15 | 7 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 5 slot</div>
+          <div class="inf">-------------------------------------------------</div>
+          <div class="price2"><b> 33,990,000 đ</b> </div>
+          <a href="BuyNow.html">
+          <button class="buy" style="margin-left: 50px;">Buy now</button>
+          </a> </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="tour">
+        <div class="cont2"> <img src="images/b4.jpg" width="250" height="250"/>
+          <div class="overlay2"> <br>
+            GoldenPass sightseeing ship</br>
+            <br>
+            Standard Tour</br>
+          </div>
+          <div class="name2">Switzerland</div>
+          <div class="inf">23/04/2019 19:40 | 7 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 9 slot</div>
+          <div class="inf">-------------------------------------------------</div>
+          <div class="price2"><b> 63,990,000 đ</b> </div>
+          <a href="BuyNow.html">
+          <button class="buy" style="margin-left: 50px;">Buy now</button>
+          </a> </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="tour">
+        <div class="cont2"> <img src="images/b5.jpg" width="250" height="250"/>
+          <div class="overlay2"> <br>
+            Save Tour</br>
+          </div>
+          <div class="name2">Hong Kong - Disneyland</div>
+          <div class="inf">27/05/2019 11:15 | 6 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 9 slot</div>
+          <div class="inf">-------------------------------------------------</div>
+          <div class="price2"><b> 21,990,000 đ</b> </div>
+          <a href="BuyNow.html">
+          <button class="buy" style="margin-left: 50px;">Buy now</button>
+          </a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-2.2.4.min.js"></script> 
+<script src="js/multislider.js"></script> 
+<script>
+
+		$('#mixedSlider').multislider({
+			duration: 600,
+			interval: 2000
+		});
+</script><!--Mutislider-->
+<hr/>
+<h1>NEW TOUR</h1>
+<div class="tour">
+  <div class="cont2"> <img src="images/b6.jpg" width="250" height="250"/>
+    <div class="overlay2"> <br>
+      Gift: Skywalk tickets</br>
+      <br>
+      Standard Tour</br>
+    </div>
+  </div>
+  <div class="name2">East West USA</div>
+  <div class="inf">07/03/2019 11:15 | 12 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 1 slot</div>
+  <div class="inf">-------------------------------------------------</div>
+  <div class="price2"><b> 94,990,000 đ</b> </div>
+  <a href="BuyNow.html">
+  <button class="buy" style="margin-left: 50px;">Buy now</button>
+  </a> </div>
+<div class="tour">
+  <div class="cont2"> <img src="images/b7.jpg" width="250" height="250"/>
+    <div class="overlay2"> <br>
+      Sale Tour</br>
+    </div>
+  </div>
+  <div class="name2">Chiang Mai - Chiang Rain</div>
+  <div class="inf">08/03/2019 11:25 | 5 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 2 slot</div>
+  <div class="inf">-------------------------------------------------</div>
+  <div class="price2"><b> 9,990,000 đ</b> </div>
+  <a href="BuyNow.html">
+  <button class="buy" style="margin-left: 50px;">Buy now</button>
+  </a> </div>
+<div class="tour">
+  <div class="cont2"> <img src="images/b8.jpg" width="250" height="250"/>
+    <div class="overlay2"><br>
+      Hotel 4*</br>
+      <br>
+      Standard Save</br>
+    </div>
+  </div>
+  <div class="name2">Siem Reap - Phnom Penh</div>
+  <div class="inf">09/03/2019 04:30 | 4 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 5 slot</div>
+  <div class="inf">-------------------------------------------------</div>
+  <div class="price2"><b> 5,490,000 đ</b> </div>
+  <a href="BuyNow.html">
+  <button class="buy" style="margin-left: 50px;">Buy now</button>
+  </a> </div>
+<div class="tour">
+  <div class="cont2"> <img src="images/b9.jpg" width="250" height="250"/>
+    <div class="overlay2"> Shock Price Tour </div>
+  </div>
+  <div class="name2">Singapores</div>
+  <div class="inf">10/03/2019 16:10 | 4 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 5 slot</div>
+  <div class="inf">-------------------------------------------------</div>
+  <div class="price2"><b> 10,390,000 đ</b> </div>
+  <a href="BuyNow.html">
+  <button class="buy" style="margin-left: 50px;">Buy now</button>
+  </a> </div>
+<div class="tour">
+  <div class="cont2"> <img src="images/b10.jpeg" width="250" height="250"/>
+    <div class="overlay2"> <br>
+      Dream Flowers</br>
+      <br>
+      Shock Price Tour</br>
+    </div>
+  </div>
+  <div class="name2">Jappan</div>
+  <div class="inf">12/03/2019 00:30 | 5 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 9 slot</div>
+  <div class="inf">-------------------------------------------------</div>
+  <div class="price2"><b> 33,990,000 đ</b> </div>
+  <a href="BuyNow.html">
+  <button class="buy" style="margin-left: 50px;">Buy now</button>
+  </a> </div>
+<div class="tour">
+  <div class="cont2"> <img src="images/b11.jpg" width="250" height="250"/>
+    <div class="overlay2"> Save tour </div>
+  </div>
+  <div class="name2">Myanmar Journey</div>
+  <div class="inf">14/03/2019 09:20 | 5 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 6 slot</div>
+  <div class="inf">-------------------------------------------------</div>
+  <div class="price2"><b> 15,990,000 đ</b> </div>
+  <a href="BuyNow.html">
+  <button class="buy" style="margin-left: 50px;">Buy now</button>
+  </a> </div>
+<div class="tour">
+  <div class="cont2"> <img src="images/b12.png" width="250" height="250"/>
+    <div class="overlay2"> Standard Tour </div>
+  </div>
+  <div class="name2">Mauritius - Madagascar</div>
+  <div class="inf">20/03/2019 09:15 | 8 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 9 slot</div>
+  <div class="inf">-------------------------------------------------</div>
+  <div class="price2"><b> 77,990,000 đ</b> </div>
+  <a href="BuyNow.html">
+  <button class="buy" style="margin-left: 50px;">Buy now</button>
+  </a> </div>
+<div class="tour">
+  <div class="cont2"> <img src="images/b13.JPG" width="250" height="250"/>
+    <div class="overlay2"> Shock Price Tour </div>
+  </div>
+  <div class="name2">Seoul - Everland - Nami</div>
+  <div class="inf">20/03/2019 23:40 | 5 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 8 slot</div>
+  <div class="inf">-------------------------------------------------</div>
+  <div class="price2"><b> 16,990,000 đ</b> </div>
+  <a href="BuyNow.html">
+  <button class="buy" style="margin-left: 50px;">Buy now</button>
+  </a> </div>
+<div class="tour">
+  <div class="cont2"> <img src="images/b14.jpg" width="250" height="250"/>
+    <div class="overlay2"> <br>
+      Hotel 3*</br>
+      <br>
+      Save Tour</br>
+    </div>
+  </div>
+  <div class="name2">Phuket - Phi Phi Island</div>
+  <div class="inf">14/03/2019 10:35 | 5 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 8 slot</div>
+  <div class="inf">-------------------------------------------------</div>
+  <div class="price2"><b> 12,590,000 đ</b> </div>
+  <a href="BuyNow.html">
+  <button class="buy" style="margin-left: 50px;">Buy now</button>
+  </a> </div>
+<div class="tour">
+  <div class="cont2"> <img src="images/b15.jpg" width="250" height="250"/>
+    <div class="overlay2"> <br>
+      Hotel 4*</br>
+      <br>
+      Standard Tour</br>
+    </div>
+  </div>
+  <div class="name2">Qatar</div>
+  <div class="inf">13/04/2019 09:15 | 5 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 9 slot</div>
+  <div class="inf">-------------------------------------------------</div>
+  <div class="price2"><b> 29,990,000 đ</b> </div>
+  <a href="BuyNow.html">
+  <button class="buy" style="margin-left: 50px;">Buy now</button>
+  </a> </div>
+<div class="tour">
+  <div class="cont2"> <img src="images/b16.jpg" width="250" height="250"/>
+    <div class="overlay2"> <br>
+      Hotel 4*</br>
+      <br>
+      Sale Tour</br>
+    </div>
+  </div>
+  <div class="name2">Italy</div>
+  <div class="inf">25/03/2019 21:40 | 7 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 4 slot</div>
+  <div class="inf">-------------------------------------------------</div>
+  <div class="price2"><b> 44,990,000 đ</b> </div>
+  <a href="BuyNow.html">
+  <button class="buy" style="margin-left: 50px;">Buy now</button>
+  </a> </div>
+<div class="tour">
+  <div class="cont2"> <img src="images/b17.jpg" width="250" height="250"/>
+    <div class="overlay2"> <br>
+      Standard Tour</br>
+    </div>
+  </div>
+  <div class="name2">Beijing - Great Wall</div>
+  <div class="inf">29/03/2019 05:40 | 4 days &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 9 slot</div>
+  <div class="inf">-------------------------------------------------</div>
+  <div class="price2"><b> 11,990,000 đ</b> </div>
+  <a href="BuyNow.html">
+  <button class="buy" style="margin-left: 50px;">Buy now</button>
+  </a> </div>
+<aside>
+  <center>
+    <h1>FOREIGN TOUR</h1>
+    <hr/>
+    <iframe width="auto" height="25%" src="https://www.youtube.com/embed/NljrLVvGUJ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="auto" height="25%" src="https://www.youtube.com/embed/2qtlHRhhUas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="auto" height="25%" src="https://www.youtube.com/embed/cyl2hPgc1vE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="auto" height="25%" src="https://www.youtube.com/embed/Sg8GboPbLIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </center>
+</aside>
+</article>
+<footer> 
+  <!-- Footer -->
+  <div id='footer-wrapper'>
+    <b:section class='left' id='left' preferred='yes'/>
+    <ul>
+      <div style="color: #fc6600; font-size: 25px; font-weight: bold;">Contact</div>
+      <li>Address: 190 Pasteur, Ward 6, District 3, HCMC</li>
+      <li>Phone: (+84 28) 3822 8898</li>
+      <li>Fax: (+84 28) 3829 9142</li>
+      <li>Email: info@vietravel.com</li>
+      <li>Hotline: 1900 1839 (08h-23h)</li>
+    </ul>
+    </b:section>
+    <b:section class='center' id='center' preferred='yes'/>
+    <center>
+      <div class="email">
+        <form>
+          <input type="text" placeholder="Enter your email" name="email" />
+          <div class="iconemail" ><img src="images/send.jpeg" /></div>
+        </form>
+        <div style="color: #fc6600; font-size: 25px;font-weight: bold; ">NEWSLETTER</div>
+        <br>
+        </br>
+        <img src="images/visa.png" width="50" height="35" /> <img src="images/mastercard.jpg" width="50" height="35" /> <img src="images/paypal.png" width="50" height="35"/> <img src="images/VerifiedbyVisa.jpg" width="50" height="35" /> <br>
+        </br>
+        <img src="images/jcb.png" width="50" height="35" /> <img src="images/maritimebank.jpg" width="50" height="35" /> <img src="images/vnpay.png" width="50" height="35" /> <img src="images/jcbsecure.png" width="50" height="35" />
+        <div style="color: #fc6600; font-size: 25px;font-weight: bold; margin-top: 10px;">ACCEPT PAYMENT</div>
+      </div>
+    </center>
+    </b:section>
+    <b:section class='right' id='right' preferred='yes'/>
+    <center>
+      <br>
+      </br>
+      <div style="color: #fc6600; font-size: 25px; font-weight: bold; margin-top: 150px;">Please follow us</div>
+      <img src="images/facebook_32.png" width="32" height="32"/> <img src="images/twitter_32.jfif" width="32" height="32"/> <img src="images/youtube_32.png" width="32" height="32"/> <img src="images/googleplus_32.png" width="32" height="32"/>
+    </center>
+    </b:section>
+  </div>
+  <div class='clear'/>
+  </div>
+  <!-- Footer Widget End -->
+  <center>
+    <div style="color: #000000; font-size: 10px;"> Copyright © 2018 - By LHN </div>
+  </center>
+</footer>
+<!-- import icon font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<!-- Import thư viện JQuery --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+<script>
+// kéo xuống khoảng cách px thì xuất hiện nút Top-up
+var offset = 80;
+// thời gian di trượt 0.75s ( 1000 = 1s )
+var duration = 750;
+$(function(){
+$(window).scroll(function () {
+if ($(this).scrollTop() > offset)
+$('#top-up').fadeIn(duration);else
+$('#top-up').fadeOut(duration);
+});
+$('#top-up').click(function () {
+$('body,html').animate({scrollTop: 0}, duration);
+});
+});
+</script>
+<div title="Về đầu trang" onmouseover="this.style.color='#590059'" onmouseout="this.style.color='#004993'" id="top-up"> <i class="fa fa-caret-square-o-up"></i></div>
+</body>
+</html>

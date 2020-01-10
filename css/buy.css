@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+}
+button:hover {
+    opacity: 0.8;
+}
+a {
+    text-decoration: none;
+}

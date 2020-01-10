@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: myThirdFont;
+  src: url("../fonts/Bully Normal.ttf");
+}
+footer {
+    min-height: inherit;
+    color: #ffffff;
+    clear: both;
+    background-color: #C5C5C5;
+}
+#footer-wrapper {
+    background: #C5C5C5;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px 15px 0;
+    color: #ddd
+}
+#footer-wrapper .left {
+    float: left;
+    width: 34%
+}
+#footer-wrapper .center {
+    float: left;
+    width: 34%
+}
+#footer-wrapper .right {
+    float: right;
+    width: 32%
+}
+#footer-wrapper .left .widget, #footer-wrapper .center .widget {
+    margin: 0 15px 15px 0;
+    clear: both
+}
+#footer-wrapper .right .widget {
+    margin: 0 0 15px;
+    clear: both
+}
+ @media screen and (max-width:768px) {
+#footer-wrapper .left {
+    float: none;
+    width: 100%
+}
+#footer-wrapper .center {
+    float: none;
+    width: 100%
+}
+#footer-wrapper .right {
+    float: none;
+    width: 100%
+}
+#footer-wrapper .left .widget, #footer-wrapper .center .widget {
+    margin: 0 0 15px;
+    clear: both
+}
